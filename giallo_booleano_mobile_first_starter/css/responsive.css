@@ -92,4 +92,14 @@
         justify-content: center; 
     }
 
+    .clearfix img{
+        margin-right: 10px;
+        float: left;
+    }
+
+    footer{
+        display: flex;
+        justify-content: space-between;
+    }
+
 }
