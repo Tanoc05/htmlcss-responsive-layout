@@ -48,6 +48,13 @@
         justify-content: flex-start;
     }
     
+
+    .container{
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+
+
     .recipe-name{
         font-size: x-large;
     }
