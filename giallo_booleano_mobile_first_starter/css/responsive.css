@@ -39,3 +39,57 @@
     }
 
 }
+
+@media screen and (min-width :992px){
+
+    #topbar{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+    
+    .recipe-name{
+        font-size: x-large;
+    }
+
+    .social-networks button{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .social-networks button{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .btn .label {
+        display: inline ;
+    }
+
+    .ads{
+        display: block;
+    }
+
+    .recipe-card{
+        display: flex;
+        flex-direction: row;
+        align-items: stretch;
+        overflow: hidden;
+    }
+
+    .recipe-video {
+        flex: 0 0 65%; 
+        height: auto; 
+    }
+
+    
+    .recipe-info {
+        flex: 0 0 35%;
+        background-color: #fff;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+    }
+
+}
