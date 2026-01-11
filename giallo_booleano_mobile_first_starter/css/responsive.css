@@ -12,5 +12,30 @@
         padding-right: 30px;
     }
 
+    .recipe-origin{
+        display: inline;
+    }
+
+    .quick-notes ul{
+        display: flex;
+        flex-direction: row;
+        gap: 80px;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .social-networks button{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .ads{
+        display: block;
+    }
+
+    .clearfix img{
+        margin-right: 10px;
+        float: left;
+    }
 
 }
